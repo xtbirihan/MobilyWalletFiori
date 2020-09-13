@@ -97,8 +97,10 @@ sap.ui.define([
 		onTransactionNoChange: function (oEvent) {
 			if (oEvent.getParameter("newValue") === "02") {
 				this.getView().byId("idSign").setVisible(true);
+				this.getView().byId("idSlipNumber").setVisible(false);
 			} else {
 				this.getView().byId("idSign").setVisible(false);
+				this.getView().byId("idSlipNumber").setVisible(true);
 			}
 
 		}

@@ -56,7 +56,7 @@
 						</smartField:SmartField>
 					</smartForm:GroupElement>
 					<smartForm:GroupElement>
-						<smartField:SmartField editable="true" value="{SlipNumber}">
+						<smartField:SmartField editable="true" value="{SlipNumber}" id="idSlipNumber">
 							<smartField:configuration >
 								<smartField:Configuration displayBehaviour="descriptionOnly"/>
 							</smartField:configuration>
